@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { User } from 'src/app/models/user';
 import { AuthServiceService } from '../auth-service.service';
@@ -23,7 +22,7 @@ signup=new User();
         alert('Signup successful');
       
     },err =>{
-      alert(JSON.stringify(err));
+      alert(JSON.stringify(err))
     });
   }
 }
