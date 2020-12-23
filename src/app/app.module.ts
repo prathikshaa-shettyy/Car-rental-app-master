@@ -12,6 +12,7 @@ import { BookingRoutingModule } from './booking-routing.module';
 import { HomeRoutingModule } from './home/home-routing.module';
 import { CoreRoutingModule } from './core/core-routing.module';
 import { UserRoutingModule } from './user/user-routing.module';
+import { ModelsComponent } from './models/models.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { UserRoutingModule } from './user/user-routing.module';
     NavBarComponent,
     SignInComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ModelsComponent
   ],
   imports: [
     BrowserModule,
